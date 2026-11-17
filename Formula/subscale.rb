@@ -5,23 +5,23 @@ class Subscale < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.3/subscale_darwin_arm64.tar.gz"
-      sha256 "62df3f2c6583c6b8cb0ed0f9c03a0051b3e5161a02736a1865505afd2bcbf211"
+      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.4/subscale_darwin_arm64.tar.gz"
+      sha256 "ad48296c8c4fee242425722be1fffbd4609b4d3e4b0df6d931a144840ca697ca"
     end
     on_intel do
-      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.3/subscale_darwin_amd64.tar.gz"
-      sha256 "d16572474e53a3ae7c0126abf78e963c890aae7e0172da2f9babd812a07e1b68"
+      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.4/subscale_darwin_amd64.tar.gz"
+      sha256 "15ffbfa4e8514a59b5ec4cb79f89a2277291d7b510222749cde320505f014165"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.3/subscale_linux_arm64.tar.gz"
-      sha256 "6d23f26cfed3f2011f338bd9adc15d9c858043df1a765da24df37665bdca3549"
+      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.4/subscale_linux_arm64.tar.gz"
+      sha256 "acc0ace6809529c40d47cb2b27051bf20fa3b83c5263b8af5d4e73c17067202b"
     end
     on_intel do
-      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.3/subscale_linux_amd64.tar.gz"
-      sha256 "1e9cd0c82c4019fda1d9d87ac96591275fe24c4196450981529b476283b01cd4"
+      url "https://github.com/hyuck0221/subscale/releases/download/v0.1.4/subscale_linux_amd64.tar.gz"
+      sha256 "950e97add6442a63f0efe549411874722b26d43a1eb804c89a7609e1a1c365ee"
     end
   end
 
